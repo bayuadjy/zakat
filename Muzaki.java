@@ -19,16 +19,8 @@ public class Muzaki {
             return total_harta * 0.025;
         }
         
-        public String setNama(String nama){
-            return this.nama = nama;
-        }
-        
         public String getNama(){
             return nama;
-        }
-        
-        public double setTotalHarta(double total_harta){
-            return this.total_harta = total_harta;
         }
         
         public double getTotalHarta(){
